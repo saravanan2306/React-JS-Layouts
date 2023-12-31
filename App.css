@@ -1,0 +1,319 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Task-1 */
+
+/* .over-all{
+  background: url(https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png);
+  width: 100%;
+  height: 100vh;
+}
+.bg-col{
+  background-color: #9feaff;
+  width: 50%;
+  text-align: center;
+}
+.content-box{
+padding-left: 420px;
+padding-top: 60px;
+  
+}
+.content-box h1{
+  margin-left: 50px;
+  margin-bottom: 30px;
+  font-size: 50px;
+} */
+
+
+/* Task-2 */
+
+/* .over-all-col{
+  background-color: black;
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+.over-all-col h1{
+  font-size: 70px;
+  padding-bottom: 10px;
+}
+.img-box img{
+  width: 25%;
+}
+.img-box{
+  padding-top: 65px;
+} */
+
+/* Task-3 */
+
+/* .night-img{
+  background: url(https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG5pZ2h0fGVufDB8fDB8fHww);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.night-img h1{
+  color: #fff;
+  font-weight: bold;
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+.night-img button{
+  padding: 10px 25px;
+}
+.social-box{
+  padding-top: 250px;
+} */
+
+
+/* Task-4 */
+
+/* .msg-box{
+  width: 40%;
+}
+.blue-col{
+  background-color: blue;
+  color: #fff;
+  padding: 15px 0px 5px 0px;
+  font-size: 20px;
+}
+.green-col{
+  background-color: rgb(57, 216, 57);
+  color: #fff;
+  padding: 15px 0px 5px 0px;
+  font-size: 20px;
+}
+.yellow-col{
+  background-color: rgb(252, 216, 15);
+  color: #fff;
+  padding: 15px 0px 5px 0px;
+  font-size: 20px;
+}
+.red-col{
+  background-color: red;
+  color: #fff;
+  padding: 15px 0px 5px 0px;
+  font-size: 20px;
+}
+.msg-box h1{
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 110px;
+  margin-bottom: 20px;
+}
+.msg-box{
+  margin-left: 400px;
+  margin-top: 100px;
+} */
+
+
+/* Task-5 */
+/* .purble-col{
+  background-image: linear-gradient(to right, rgb(25, 0, 255),rgb(195, 0, 255) );
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.computer img{
+  width: 60%;
+  margin-top: 55px;
+  margin-left: 20px;
+  
+
+}
+.white-col{
+  background-color: #fff;
+  border-radius: 30px;
+}
+.form-box input{
+  width: 100%;
+  padding: 15px;
+  background-color: rgb(241, 233, 233);
+  border: none;
+  border-radius: 25px 25px 25px 25px;
+  padding-inline-start:50px ;
+  caret-color: red;
+}
+.input-box{
+  position: relative;
+}
+.i-mail{
+  position: absolute;
+  bottom: 13px;
+  left: 15px;
+}
+.form-box button{
+font-weight: bold;
+  width: 100%;
+  padding: 15px;
+  background-color: rgb(5, 255, 5);
+  border-radius: 25px 25px 25px 25px;
+  border: none;
+  color: #fff;
+}
+.form-box span{
+  color: rgb(5, 255, 5) ;
+  font-weight: bold;
+  cursor: pointer;
+}
+.account{
+  padding-top: 50px;
+} */
+
+/* Task-6 */
+/* .bg-col-gray{
+  background-color: rgb(245, 239, 239);
+  padding: 50px 0px;
+}
+.header{
+  text-align: center;
+}
+.tech-box img{
+  width: 20%;
+  margin-left: 375px;
+}
+
+.tech-box{
+  background-color: #fff;
+  border-radius: 30px;
+  border-top: 4px solid red;
+}
+.saro{
+  border-top: 4px solid rgb(0, 119, 255);
+}
+.saro1{
+  border-top: 4px solid rgb(0, 255, 34);
+}
+.saro2{
+  border-top: 4px solid rgb(255, 238, 0);
+}
+
+@media screen and (max-width: 767px){
+  .tech-box img{
+margin: 0;
+  }
+  .saro{
+    margin-top: 20px;
+  }
+  .saro2{
+    margin-top: 20px;
+  }
+} */
+
+/* Task-7 */
+/* .yellow-col{
+  background-color: rgb(255, 233, 36);
+  height: 100vh;
+  padding-top: 40px;
+}
+.back-white{
+  background-color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 80px;
+}
+.back-white span{
+  color:rgb(255, 233, 36) ;
+}
+.mango{
+text-align: center;
+}
+.mango img{
+  width: 100%;
+}
+.banan img{
+  width: 70% !important;
+}
+.mango button{
+  background-color: blue;
+  color: #fff;
+  border: none;
+  padding: 8px 30px;
+}
+.mango button:hover{
+  background-color:rgb(255, 233, 36) ;
+  color: #000;
+}
+.back-white h1{
+  margin-bottom: 40px;
+  font-size: 50px;
+} */
+
+
+/* Task-8 */
+/* .bg-pink{
+background-color: rgb(248, 53, 232);
+height: 100vh;
+padding: 100px 100px;
+}
+.imojis span{
+  font-size: 100px;
+}
+.imojis{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.imojis a{
+  text-decoration: none;
+  color: #000;
+}
+.imoji-cont{
+  background-color: #fff;
+  padding: 50px;
+  margin: 40px 150px;
+  border-radius: 10px;
+}
+.imoji-cont h1{
+  text-align: center;
+}
+.thank{
+  text-align: center;
+}
+.thank svg{
+  color: red;
+  font-size: 50px;
+} */
